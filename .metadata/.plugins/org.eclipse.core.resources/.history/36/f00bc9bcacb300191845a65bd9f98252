@@ -1,0 +1,10 @@
+package com.param.sprinbootdemo.app;
+
+public class RestDemoApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

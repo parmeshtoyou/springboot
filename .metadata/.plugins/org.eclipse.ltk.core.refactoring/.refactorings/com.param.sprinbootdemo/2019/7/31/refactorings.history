@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.param.sprinbootdemo.app.controller.topic.Topic&apos; to &apos;TopicsController&apos;&#x0A;- Original project: &apos;com.param.sprinbootdemo&apos;&#x0A;- Original element: &apos;com.param.sprinbootdemo.app.controller.topic.Topic&apos;&#x0A;- Renamed element: &apos;com.param.sprinbootdemo.app.controller.topic.TopicsController&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Topic&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.param.sprinbootdemo.app.controller.topic{Topic.java[Topic" matchStrategy="1" name="TopicsController" qualified="false" references="true" similarDeclarations="false" stamp="1564591213932" textual="false" version="1.0"/>
+</session>

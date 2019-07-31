@@ -1,0 +1,20 @@
+package com.param.sprinbootdemo.app.controller.topic;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class TopicService {
+
+	private List<Topic> topicList = new ArrayList<Topic>();
+
+	public List<Topic> getAllTopics() {
+		topicList.add(new Topic("1", "First Topic", "This is the First Topic"));
+		topicList.add(new Topic("2", "Second Topic", "This is the Second Topic"));
+		topicList.add(new Topic("3", "Third Topic", "This is the Third Topic"));
+		
+		return topicList;
+	}
+}

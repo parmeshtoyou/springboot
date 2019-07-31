@@ -1,0 +1,24 @@
+package com.param.sprinbootdemo.app.controller.topic;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TopicsController {
+	
+	@RequestMapping("/topics")
+	public List<Topic> getAllTopics() {
+		return getTopicList();
+	}
+
+	private List<Topic> getTopicList() {
+		List<Topic> topicList = new ArrayList<Topic>();
+		topicList.add(new Topic("1", "First Topic", "This is the First Topic"));
+		topicList.add(new Topic("2", "Second Topic", "This is the Second Topic"));
+		topicList.add(new Topic("3", "Third Topic", "This is the Third Topic"));
+		return topicList;
+	}
+}
